@@ -33,7 +33,7 @@ jobs:
           username: lucirleisantos
           password: dckr_pat_kMlwA40AEs0q0SvU8o2EUqHCYbc
 
-     - name: Build and push
+      - name: Build and push
         uses: docker/build-push-action@v2
         with:
           context: .
