@@ -20,4 +20,4 @@ jobs:
         with:
           context: DockerFileFolder/
           push: true
-          tags: lucirleisantos/odoo_ee_17
+          tags: odoo_ee_17
