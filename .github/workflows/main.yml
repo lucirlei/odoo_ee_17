@@ -12,7 +12,7 @@ jobs:
       - name: login to docker registry
         uses: docker/login-action@v3
         with:
-          username: lucirleisantos/odoo_ee_17
+          username: lucirleisantos
           password: dckr_pat_kMlwA40AEs0q0SvU8o2EUqHCYbc
 
       - name: build and push docker image to registry
